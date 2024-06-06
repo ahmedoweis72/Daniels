@@ -1,0 +1,388 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+/* --------------------------------------------------home-------------------------------------------------- */
+.home {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.664), rgba(0, 0, 0, 0.664)), url(../imgs/imgs/bg.jpg);
+  background-size: cover;
+  background-attachment: scroll;
+  height: 100vh;
+}
+
+.home h1 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 55px;
+  color: #ffffff;
+}
+
+.home p {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 200;
+  line-height: 72px;
+  color: #ffffff;
+}
+
+.circle {
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 0, 0.425);
+}
+
+.social-icon a {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  color: #ffffff;
+
+
+}
+
+.anime-font {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 60px;
+  font-weight: 400;
+  line-height: 72px;
+  color: #ffffff;
+}
+@media (max-width:500px) {
+.anime-font {
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size:30px;
+    font-weight: 400;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  .home p {
+    font-style: normal;
+    font-family: "Montserrat", sans-serif;
+    font-size:30px;
+    font-weight: 200;
+    line-height: 36px;
+    color: #ffffff;
+  }
+  
+ 
+}
+/* --------------------------------------------------about-------------------------------------------------- */
+
+.about-content h1 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 800;
+  line-height: 33px;
+  color: rgb(52, 52, 52);
+}
+
+.about-content p {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 129, 130);
+}
+
+.prog-bar span {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 14px;
+  color: #ffffff;
+}
+
+.edit-btnh {
+  --bs-btn-hover-color: #424649;
+  --bs-btn-hover-bg: #fff;
+}
+
+.button {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19px;
+  color: rgb(52, 52, 52);
+}
+
+.about-img-back {
+  background-image: url(../imgs/imgs/dots.png);
+  height: 80%;
+  width: 90%;
+  position: relative;
+  top: 30%;
+  left: -10%;
+}
+
+.about-img {
+  bottom: 80%;
+}
+
+/* -------------------------------------------------services------------------------------------------------- */
+.circle-about {
+  width: 70px;
+  height: 70px;
+  background-color: rgb(233 236 239);
+}
+
+.font-edt:hover .circle-about {
+  background-color: #1C1C1C;
+  color: #fff;
+}
+
+.font-edt i {
+  font-size: 30px;
+}
+
+.font-edt p {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 22px;
+  color: rgb(116, 129, 130);
+}
+
+.font-edt h2 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 20px;
+  color: rgb(52, 52, 52);
+}
+
+.font-main h1 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 44px;
+  color: rgb(52, 52, 52);
+}
+
+/* -------------------------------------------------portofolio------------------------------------------------- */
+.portofolio-card img {
+  width: 100%;
+}
+
+.card-overly {
+  position: absolute;
+  top: 2%;
+  bottom: 2%;
+  left: 5%;
+  right: 5%;
+  transform: translateY(5%);
+  background-color: #fffffff5;
+  transition: all 0.2s;
+  opacity: 0;
+}
+
+.portofolio-card:hover .card-overly {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.porto-social-circle {
+  width: 35px;
+  height: 35px;
+  background-color: #1C1C1C;
+}
+
+.porto-social-circle a {
+  color: #fff;
+}
+
+.porto-social-circle:hover {
+  background-color: #fff;
+
+  a {
+    color: #1C1C1C;
+  }
+}
+
+.btn-font button {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23px;
+  color: rgb(34, 34, 34);
+}
+
+.nav-link:hover {
+  color: rgb(34, 34, 34);
+}
+
+.nav-pills .nav-link.active {
+  color: rgb(34, 34, 34);
+  background-color: transparent;
+}
+
+/* ------------------------------------------------Testimonials.-------------------------------------------------- */
+.slider img {
+  width: 100px;
+}
+
+.slider h2 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 18px;
+  color: rgb(52, 52, 52);
+}
+
+.slider span {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 17px;
+  color: rgb(116, 129, 130);
+}
+
+.slider p {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 24px;
+  color: rgb(116, 129, 130);
+}
+
+.carousel-indicators [data-bs-target] {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #424649;
+}
+
+.carousel-indicators [data-bs-target]:hover {
+  background-color: #161616;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item span {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(52, 52, 52);
+}
+
+.item h3 {
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  font-weight: 900;
+  line-height: 33px;
+  color: rgb(52, 52, 52);
+}
+
+.item p {
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 24px;
+  color: rgb(116, 129, 130);
+}
+
+/* -------------------------------------------------Our Team.-------------------------------------------------- */
+.set .circle {
+  background-color: #000;
+  transform: rotateY(180deg);
+}
+
+.set .circle:hover {
+  background-color: #ffffff;
+
+  a {
+    color: #000;
+  }
+}
+
+.set {
+  top: 2%;
+  bottom: 2%;
+  left: 2%;
+  right: 2%;
+  opacity: 0;
+  z-index: 100;
+  transition-delay: 1s;
+  transition: all 1s ;
+}
+.card-team
+{
+  overflow: hidden;
+ 
+}
+.card-item:hover .set{
+    transform: rotateY(180deg);
+    opacity: 1;
+}
+.card-team:hover img
+{
+  transform: scale(1.1);
+  
+}
+.card-item h4
+{
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 28px;
+  color: rgb(255, 255, 255);
+}
+.card-item h5
+{
+  font-style: normal;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 22px;
+  color: rgb(255, 255, 255);
+}
+/* -------------------------------------------------contact.-------------------------------------------------- */
+.circle-contact {
+  width: 60px;
+  height: 60px;
+  background-color: rgb(233 236 239);
+}
+.item-contact:hover .circle-contact
+{
+  background-color: #000;
+  i
+  {
+    color: #fff;
+  }
+}
+/* -------------------------------------------------footer.-------------------------------------------------- */
+.copyright p{
+  font-style: normal;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 21px;
+  color: rgb(116, 129, 130);
+}
+
+/* -------------------------------------------------NavBar.-------------------------------------------------- */
+
